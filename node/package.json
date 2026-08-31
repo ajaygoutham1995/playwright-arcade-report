@@ -1,6 +1,6 @@
 {
   "name": "playwright-arcade",
-  "version": "0.4.0",
+  "version": "0.5.3",
   "description": "Retro arcade-style live terminal reporter for Playwright Test",
   "keywords": [
     "playwright",
@@ -36,6 +36,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
+    "update:version": "npm version patch",
     "prepublishOnly": "npm run clean && npm run build && npm test"
   },
   "peerDependencies": {
