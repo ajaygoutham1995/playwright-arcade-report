@@ -40,7 +40,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublishOnly": "npm run clean && npm run build && npm test"
+    "prepublishOnly": "node scripts/prepublish.js"
   },
   "peerDependencies": {
     "@playwright/test": ">=1.40.0 <2"
