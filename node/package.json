@@ -13,6 +13,10 @@
     "testing"
   ],
   "license": "MIT",
+  "repository":{
+    "type":"git",
+    "url":"https://github.com/ajaygoutham1995/playwright-arcade-report"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
