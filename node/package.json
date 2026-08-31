@@ -1,6 +1,6 @@
 {
   "name": "playwright-arcade",
-  "version": "0.5.0",
+  "version": "0.4.0",
   "description": "Retro arcade-style live terminal reporter for Playwright Test",
   "keywords": [
     "playwright",
@@ -13,10 +13,6 @@
     "testing"
   ],
   "license": "MIT",
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/ajaygoutham1995/playwright-arcade-report"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
@@ -40,7 +36,7 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "prepublishOnly": "node scripts/prepublish.js"
+    "prepublishOnly": "npm run clean && npm run build && npm test"
   },
   "peerDependencies": {
     "@playwright/test": ">=1.40.0 <2"

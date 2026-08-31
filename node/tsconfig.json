@@ -4,7 +4,7 @@
     "lib": ["ES2021"],
     "module": "CommonJS",
     "moduleResolution": "Node",
-    "types": ["node", "vitest/globals"],
+    "types": ["node"],
 
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -15,6 +15,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["src/**/*.ts", "tests/**/*.ts"]
 }
