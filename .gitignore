@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+
+# Build output
+node/dist/
+
+# Packaged tarballs
+*.tgz
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
